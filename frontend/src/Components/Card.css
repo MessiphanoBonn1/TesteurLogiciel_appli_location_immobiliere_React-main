@@ -1,0 +1,14 @@
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 340px;
+  width: 340px;
+  gap: 20px;
+  background-color: red;
+}
+.card p {
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+}

@@ -1,0 +1,17 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 45px 100px 50px 100px;
+  gap: 57px;
+
+  a {
+    display: flex;
+    font-size: 24px;
+  }
+}
+
+nav {
+  display: flex;
+  gap: 57px;
+}

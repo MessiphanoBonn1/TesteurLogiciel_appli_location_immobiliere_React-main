@@ -1,16 +1,19 @@
-import Card from "../Components/Card.jsx";
-import "../Components/Cards.scss";
+import logements from "../../../backend/logements.json";
+import Card from "./Card.jsx";
+import "./Cards.scss";
 
 function Cards() {
   return (
-    <div className="cards">
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-    </div>
+    <section className="cards">
+      {logements.map((logement) => (
+        <Card
+          key={logement.id}
+          id={logement.id}
+          title={logement.title}
+          cover={logement.cover}
+        />
+      ))}
+    </section>
   );
 }
 

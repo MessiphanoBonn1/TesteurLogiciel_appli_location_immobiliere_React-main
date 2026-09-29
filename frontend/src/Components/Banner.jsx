@@ -1,11 +1,10 @@
-import BannerImg from "../assets/images/banner.jpg";
 import "../styles/_variables.scss";
 import "../Components/Banner.scss";
 
-function Banner() {
+function Banner({ image, text }) {
   return (
-    <div className="banner">
-      <h1>Chez vous, partout et ailleurs</h1>
+    <div className="banner" style={{ backgroundImage: `url(${image})` }}>
+      <h1>{text}</h1>
     </div>
   );
 }

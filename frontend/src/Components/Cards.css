@@ -8,4 +8,6 @@
   justify-items: center;
   padding: 56px 0 43px 0;
   border-radius: 25px;
+  justify-self: center;
+  width: 100%;
 }

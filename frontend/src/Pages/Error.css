@@ -1,0 +1,26 @@
+.error-page {
+  display: flex;
+  flex-direction: column;
+}
+.error-page h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 200px;
+  color: rgb(255, 96, 96);
+  align-self: center;
+  margin-top: 100px;
+}
+.error-page h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 36px;
+  color: rgb(255, 96, 96);
+  align-self: center;
+  margin-top: 100px;
+}
+.error-page .link {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  padding-bottom: 20px;
+  align-self: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}

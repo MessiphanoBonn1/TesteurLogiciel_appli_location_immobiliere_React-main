@@ -35,13 +35,13 @@ function Slider({ pictures }) {
           <img
             src={ArrowLeft}
             alt="Précédente"
-            className="carrousel-arrow carrousel-arrow--left"
+            className="carrousel-arrow carrousel-arrow-left"
             onClick={prevSlide}
           />
           <img
             src={ArrowRight}
             alt="Suivante"
-            className="carrousel-arrow carrousel-arrow--right"
+            className="carrousel-arrow carrousel-arrow-right"
             onClick={nextSlide}
           />
           <span className="carrousel-counter">

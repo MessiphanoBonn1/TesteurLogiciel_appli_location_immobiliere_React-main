@@ -2,6 +2,7 @@ import React from "react";
 import { useParams, Navigate } from "react-router-dom";
 import LogementData from "../../../backend/logements.json";
 import Slider from "../Components/Slider.jsx";
+import Textlogements from "../Components/textlogement.jsx";
 
 function Logements() {
   const { id } = useParams();
@@ -15,8 +16,7 @@ function Logements() {
   return (
     <div className="logements">
       <Slider pictures={currentHousing.pictures} />
-      <h1>{currentHousing.title}</h1>
-      <p>{currentHousing.location}</p>
+      <Textlogements />
     </div>
   );
 }

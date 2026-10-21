@@ -1,0 +1,71 @@
+.textlogement {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+}
+
+.info {
+  width: 50%;
+}
+.info h1 {
+  font-size: 36px;
+  font-weight: 500;
+  color: rgb(255, 96, 96);
+  font-family: "Montserrat", sans-serif;
+}
+.info p {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 20px;
+}
+.info span {
+  background-color: rgb(255, 96, 96);
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  padding: 5px 10px;
+  border-radius: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.host {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 50%;
+}
+.host p {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  margin-right: 10px;
+  color: rgb(255, 96, 96);
+  width: 70px;
+}
+.host img {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.tags .tag {
+  background-color: rgb(255, 96, 96);
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}

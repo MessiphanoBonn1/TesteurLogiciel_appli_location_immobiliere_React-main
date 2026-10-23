@@ -1,4 +1,4 @@
-.textlogement {
+.alltext {
   display: flex;
   flex-direction: row;
   margin-top: 30px;
@@ -35,6 +35,7 @@
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  flex-direction: column;
   width: 50%;
 }
 .host p {
@@ -53,6 +54,29 @@
      object-fit: cover;
 }
 
+.rating {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: row;
+  margin-left: auto;
+  margin-top: 7px;
+  width: 50%;
+}
+.rating .star {
+  height: 36px;
+  width: 36px;
+}
+
+.hosttext {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: row;
+  width: 50%;
+}
+
 .tags {
   display: flex;
   flex-wrap: wrap;
@@ -68,4 +92,35 @@
   border-radius: 5px;
   margin-right: 10px;
   margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .alltext {
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  .info {
+    width: 100%;
+  }
+  .info p {
+    margin-top: 10px;
+  }
+  .host {
+    width: 100%;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    gap: 148px;
+  }
+  .rating {
+    justify-content: center;
+    margin-top: 10px;
+  }
+  .hosttext {
+    justify-content: center;
+    margin-top: 10px;
+  }
+  .tags {
+    justify-content: center;
+    margin-top: 10px;
+  }
 }

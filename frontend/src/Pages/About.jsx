@@ -1,6 +1,7 @@
 import Banner from "../Components/Banner.jsx";
 import Collapse from "../Components/Collapse.jsx";
 import BannerImg from "../assets/images/BannerAbout.png";
+import "./About.scss";
 
 const aboutList = [
   {

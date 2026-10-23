@@ -14,3 +14,20 @@ nav {
   display: flex;
   gap: 57px;
 }
+
+@media (max-width: 768px) {
+  .header {
+    gap: 60px;
+  }
+  .header img {
+    width: 120px;
+  }
+  .header a {
+    font-size: 18px;
+  }
+  .header nav {
+    flex-direction: row-reverse;
+    width: 80%;
+    gap: 20px;
+  }
+}

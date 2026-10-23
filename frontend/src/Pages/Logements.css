@@ -1,0 +1,23 @@
+.collpaselogeme {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 76px;
+  margin-bottom: 50px;
+  margin-top: 31px;
+}
+
+.collapse-logements {
+  width: 55%;
+}
+
+@media (max-width: 768px) {
+  .collpaselogeme {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .collapse-logements {
+    width: 100%;
+  }
+}

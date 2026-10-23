@@ -1,8 +1,9 @@
-import React from "react";
 import { useParams, Navigate } from "react-router-dom";
 import LogementData from "../../../backend/logements.json";
 import Slider from "../Components/Slider.jsx";
 import Textlogements from "../Components/textlogement.jsx";
+import Collapse from "../Components/Collapse.jsx";
+import "./Logements.scss";
 
 function Logements() {
   const { id } = useParams();
@@ -14,10 +15,26 @@ function Logements() {
   }
 
   return (
-    <div className="logements">
+    <section className="logements">
       <Slider pictures={currentHousing.pictures} />
       <Textlogements />
-    </div>
+      <div className="collpaselogeme">
+        <div className="collapse-logements">
+          <Collapse
+            title="Description"
+            content={currentHousing.description}
+            className="logements-collapse"
+          />
+        </div>
+        <div className="collapse-logements">
+          <Collapse
+            title="Équipements"
+            content={currentHousing.equipments.join(", ")}
+            className="logements-collapse"
+          />
+        </div>
+      </div>
+    </section>
   );
 }
 

@@ -24,3 +24,22 @@
   margin-top: 100px;
   margin-bottom: 100px;
 }
+
+@media (max-width: 768px) {
+  .error-page h1 {
+    font-size: 96px;
+    margin-top: 50px;
+  }
+  .error-page h2 {
+    display: flex;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 105px;
+    width: 80%;
+  }
+  .error-page .link {
+    font-size: 14px;
+    margin-top: 105px;
+    margin-bottom: 50px;
+  }
+}

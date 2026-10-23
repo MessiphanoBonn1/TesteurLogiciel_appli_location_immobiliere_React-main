@@ -27,3 +27,26 @@
     margin-bottom: 100px;
   }
 }
+
+@media (max-width: 768px) {
+  .error-page {
+    h1 {
+      font-size: 96px;
+      margin-top: 50px;
+    }
+
+    h2 {
+      display: flex;
+      text-align: center;
+      font-size: 18px;
+      margin-top: 105px;
+      width: 80%;
+    }
+
+    .link {
+      font-size: 14px;
+      margin-top: 105px;
+      margin-bottom: 50px;
+    }
+  }
+}

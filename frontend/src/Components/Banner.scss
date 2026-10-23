@@ -30,5 +30,24 @@
     font-weight: 700;
     color: white;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: "Montserrat", sans-serif;
+  }
+}
+
+@media (max-width: 768px) {
+  .banner {
+    height: 111px;
+    margin: 0 20px;
+    border-radius: 10px;
+
+    h1 {
+      font-size: 24px;
+      width: 90%;
+    }
+
+    &::before {
+      content: "";
+      border-radius: 10px;
+    }
   }
 }
